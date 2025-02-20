@@ -1,33 +1,56 @@
-# proof-of-interaction
 # Proof of Interaction
 
-Proof of Interaction is a blockchain-based project that tracks user interactions for on-chain engagement.
+A decentralized solution for tracking user interactions to enhance on-chain engagement.
 
-## Smart Contract
-*Address:* 0x32DbC67724551222157515dFFAaf585E05340939
+## Smart Contract Address
+```
+0x32DbC67724551222157515dFFAaf585E05340939
+```
 
 ## Features
 - Tracks and verifies user interactions on-chain.
-- Enhances engagement transparency and accountability.
-- Secure and immutable data recording.
+- Ensures transparency and immutability.
+- Can be integrated with various dApps.
 
-## Installation
+## Getting Started
+### Prerequisites
+Ensure you have the following installed:
+- Node.js
+- npm or yarn
+- Hardhat (for contract deployment)
+
+### Installation
 1. Clone the repository:
-   sh
-   git clone https://github.com/your-username/proof-of-interaction.git
-   
-2. Install dependencies:
-   sh
+   ```sh
+   git clone https://github.com/yourusername/proof-of-interaction.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd proof-of-interaction
+   ```
+3. Install dependencies:
+   ```sh
    npm install
-   
-3. Deploy smart contract:
-   sh
-   npx hardhat run scripts/deploy.js --network <network_name>
-   
+   ```
+
+### Deployment
+To deploy the smart contract, use Hardhat:
+```sh
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+### Interacting with the Contract
+You can interact with the contract using Remix or writing scripts with ethers.js.
 
 ## Usage
-- Interact with the contract using a web3 provider.
-- Call smart contract functions to log user engagements.
+- Call the contract functions to record user interactions.
+- Query the blockchain to verify past interactions.
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 This project is licensed under the MIT License.
+
+## Contact
+For inquiries, reach out via GitHub issues or email: your.email@example.com
